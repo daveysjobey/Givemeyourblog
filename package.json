@@ -1,0 +1,29 @@
+{
+  "name": "givemeyourblog",
+  "version": "1.0.0",
+  "description": "A Web Scrapper that stores to mongo",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/daveysjobey/Givemeyourblog.git"
+  },
+  "author": "Davey",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/daveysjobey/Givemeyourblog/issues"
+  },
+  "homepage": "https://github.com/daveysjobey/Givemeyourblog#readme",
+  "keywords": [],
+  "dependencies": {
+    "axios": "^0.18.0",
+    "cheerio": "^1.0.0-rc.2",
+    "express": "^4.16.4",
+    "express-handlebars": "^3.0.2",
+    "mongoose": "^5.4.16",
+    "morgan": "^1.9.1"
+  }
+}
